@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#menu {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+  }
+  .main {
+    height: 75px;
+    width: 110px;
+    display: flex;
+    float: left;
+    z-index: 2;
+    position: fixed;
+    margin-left: -3%;
+    margin-top: -10%;
+} 
+nav ul .home{
+    list-style-type: none;
+    float: right;
+    line-height: 50px;
+    margin-top: -10%;
+}
+nav ul .trial{
+    list-style-type: none;
+    float: right;
+    line-height: 50px;
+    width: 90px;
+    margin-top: -10%;
+}
+.descript{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 42%;
+    margin-bottom: -25%;
+    font-size: 25px;
+}
+.vid-action{
+    margin-top: 25%;
+    margin-left: 40%;
+}
+.overarch{
+    margin-top: 12%;
+}

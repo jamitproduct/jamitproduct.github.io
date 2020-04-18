@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#msg{
+    font-family: sans-serif;
+    font-size: 5em;
+    line-height: 70px;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+#btn{
+    height: 35px;
+    width: 150px;
+    background-color:white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top:69%;
+    left: 12%;
+    cursor: pointer;
+}
+#btn::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color:black;
+    top:50%;
+    left: 100%;
+}
+.block{
+    width: 310px;
+    height: 210px;
+    background-color: royalblue;
+    position: absolute;
+    transform: rotateX(55deg) rotateY(0deg) rotateZ(45deg);
+    box-shadow: 13px 12px 15px -5px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.block img{
+    width: 310px;
+    height: 210px;
+    transition: all 5s;
+}
+.block:hover img{
+    transform: translate(-3%,-3%);
+}
+.b1{
+    top:-10%;
+    right: -7%;
+}
+.b2{
+    top:5%;    
+    right: 5%; 
+}
+.b3{
+    top:21%;
+    right: 17%;
+}
+.b4{
+    top:36%;
+    right: 29%;
+}
+.b5{
+    top:51%;
+    right: 41%;
+}
+.b6{
+    top:20%;
+    right: -18%;
+}
+.b7{
+    top:35%;
+    right: -6%;
+}
+.b8{
+    top:50%;
+    right: 6%;
+}
+.b9{
+    top:65%;
+    right: 18%;
+}
+.b10{
+    top:62%;
+    right: -17%;
+}
+.b11{
+    top:79%;
+    right: -5%;
+}
+.b12{
+    top: 80%;
+    right: 32%;
+}
+.b13{
+    top: 64%;
+    right: 55%;
+}
+
+#menu {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+  }
+  .main {
+    height: 75px;
+    width: 110px;
+    display: flex;
+    float: left;
+    z-index: 2;
+    position: relative;
+    margin-top: 1%;
+    margin-left: -3%;
+} 
+nav ul .home{
+    list-style-type: none;
+    width: 310px;
+    float: right;
+    line-height: 50px;
+}
+nav ul .trial{
+    list-style-type: none;
+    width: 50px;
+    float: right;
+    line-height: 50px;
+}
+.id-intro{
+    text-align: center;
+    font-size: 60px;
+}
+.intro {
+    color: white;
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: -60%;
+    font-family: 'Playfair Display', serif;
+}
+.descrp{
+    color: white;
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    width: 400px;
+    margin-top: 2%;
+    margin-left: 3%;
+    text-align: center;
+}
